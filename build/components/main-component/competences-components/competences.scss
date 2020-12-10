@@ -1,0 +1,103 @@
+
+.tabs {
+  max-width: 740px;
+  width:100%;
+  padding:20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  overflow: hidden;
+  height: 500px;
+
+  .row, .col-6, .col-m-6, .col-s-12{
+    display: block;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .tabs-images {
+    position:relative;
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    ul {
+      margin:0;
+      padding:0;
+      list-style: none;
+      li.images {
+        transition: all 0.6s ease-in-out;
+        position:absolute;
+        opacity: 0;
+        display: block;
+        overflow: hidden;
+        height: 100%;
+        right:-1000px;
+        &.show {
+          opacity: 1;
+          right:0;
+        }
+      }
+    }
+  }
+
+  .tabs-container {
+    position:relative;
+    display: block;
+    overflow: hidden;
+    height: 60%;
+    .tab-content {
+      transition:opacity 0.6s ease-in-out;
+      position:absolute;
+      display: block;
+      overflow: hidden;
+      bottom: 0;
+      opacity: 0;
+
+      &.show {
+        opacity: 1;
+      }
+
+      .tab-content-text {
+        h1 {
+          font-size:40px;
+        }
+
+        p {
+          line-height: 1.3em;
+          text-align: justify;
+        }
+
+        .divider {
+          margin:15px 0;
+        }
+      }
+    }
+  }
+
+  .tabs-nav {
+    ul.tabs-nav-list {
+      padding:0;
+      margin: 15px 0 0;
+      list-style: none;
+      li {
+        button.btn-tabs {
+          outline: none;
+          transition: all 0.4s ease-in-out;
+          font-weight: bold;
+          border: none;
+          padding: 12px;
+          font-size: 18px;
+          background-color: transparent;
+          color: #95b3e3;
+          border-left: 2px solid;
+          &.active {
+            color: #2D6DD3;
+            border-left: 2px solid #2D6DD3;
+          }
+        }
+      }
+    }
+  }
+}

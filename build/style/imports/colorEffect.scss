@@ -1,0 +1,203 @@
+@import 'var';
+
+
+// default
+.depht-color {
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  background-color: $color-blue-light;
+  opacity: 0.3;
+}
+.navigation .progress-bar {
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  background: $color-blue;
+}
+.bar {
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+.title-section .title {
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+.title-section .title:after, .title-section .title:before {
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+.navigation ul li {
+  button {
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  }
+  button:hover, button:focus, button.active {
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  }
+}
+
+body.color-0 {
+  .depht-color {
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    background-color: $color-blue-light;
+    opacity: 0.3;
+  }
+
+  .navigation .progress-bar {
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    background: $color-blue;
+  }
+
+  .bar {
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    background: $color-blue;
+  }
+
+  .title-section .title {
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    color: $color-blue;
+  }
+
+  .title-section .title:after, .title-section .title:before {
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    background-color: $color-blue;
+  }
+
+  .navigation ul li {
+    button {
+      color:$color-blue;
+    }
+    button:hover, button:focus, button.active {
+      transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+      background-color: $color-blue;
+      color: white;
+      -webkit-box-shadow: 4px 4px 0 0 $color-blue-light;
+      -moz-box-shadow: 4px 4px 0 0 $color-blue-light;
+      box-shadow: 4px 4px 0 0 $color-blue-light;
+    }
+  }
+}
+
+body.color-1 {
+  .depht-color {
+    background-color: $color-red-light;
+    opacity: 0.3;
+  }
+
+  .navigation .progress-bar {
+    background: $color-red;
+  }
+
+  .bar {
+    background: $color-red;
+  }
+
+  .title-section .title {
+    color: $color-red;
+  }
+
+  .title-section .title:after, .title-section .title:before {
+    background-color: $color-red;
+  }
+
+  .navigation ul li {
+    button {
+      color:$color-red;
+    }
+    button:hover, button:focus, button.active {
+      background-color: $color-red;
+      color: white;
+      -webkit-box-shadow: 4px 4px 0 0 $color-red-light;
+      -moz-box-shadow: 4px 4px 0 0 $color-red-light;
+      box-shadow: 4px 4px 0 0 $color-red-light;
+    }
+  }
+}
+
+body.color-2 {
+  .depht-color {
+    background-color: $color-blue-light;
+    opacity: 0.3;
+  }
+
+  .navigation .progress-bar {
+    background: $color-blue;
+  }
+
+  .bar {
+    background: $color-blue;
+  }
+
+  .title-section .title {
+    color: $color-blue;
+  }
+
+  .title-section .title:after, .title-section .title:before {
+    background-color: $color-blue;
+  }
+
+  .navigation ul li button:hover, .navigation ul li button:focus, .navigation ul li button.active {
+    background-color: $color-blue;
+    color: white;
+    -webkit-box-shadow: 4px 4px 0 0 $color-blue-light;
+    -moz-box-shadow: 4px 4px 0 0 $color-blue-light;
+    box-shadow: 4px 4px 0 0 $color-blue-light;
+  }
+}
+
+body.color-3 {
+  .depht-color {
+    background-color: $color-blue-light;
+    opacity: 0.3;
+  }
+
+  .navigation .progress-bar {
+    background: $color-blue;
+  }
+
+  .bar {
+    background: $color-blue;
+  }
+
+  .title-section .title {
+    color: $color-blue;
+  }
+
+  .title-section .title:after, .title-section .title:before {
+    background-color: $color-blue;
+  }
+
+  .navigation ul li button:hover, .navigation ul li button:focus, .navigation ul li button.active {
+    background-color: $color-blue;
+    color: white;
+    -webkit-box-shadow: 4px 4px 0 0 $color-blue-light;
+    -moz-box-shadow: 4px 4px 0 0 $color-blue-light;
+    box-shadow: 4px 4px 0 0 $color-blue-light;
+  }
+}
+
+body.color-4 {
+  .depht-color {
+    background-color: $color-brown-light;
+    opacity: 0.3;
+  }
+
+  .navigation .progress-bar {
+    background: $color-brown;
+  }
+
+  .bar {
+    background: $color-brown;
+  }
+
+  .title-section .title {
+    color: $color-brown;
+  }
+
+  .title-section .title:after, .title-section .title:before {
+    background-color: $color-brown;
+  }
+
+  .navigation ul li button:hover, .navigation ul li button:focus, .navigation ul li button.active {
+    background-color: $color-brown;
+    color: white;
+    -webkit-box-shadow: 4px 4px 0 0 $color-brown-light;
+    -moz-box-shadow: 4px 4px 0 0 $color-brown-light;
+    box-shadow: 4px 4px 0 0 $color-brown-light;
+  }
+}
+
+

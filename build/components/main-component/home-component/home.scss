@@ -1,0 +1,23 @@
+#home {
+  position:relative;
+  overflow:hidden;
+  height: 100vh;
+
+  .cards{
+    background-image: url("../../../assets/images/home.jpg");
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .me {
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

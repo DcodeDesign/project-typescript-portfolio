@@ -1,0 +1,61 @@
+.cards {
+  @include sizeCard;
+  @include absoluteCenterPosition;
+  @include radius(20);
+  @include shadowCard;
+  background-color: white;
+
+  &.border-left {
+    border-left: 10px solid #2D6DD3;
+  }
+
+  &.border-right {
+    border-right: 10px solid #2D6DD3;
+  }
+
+  .cards-text {
+    margin: 20px;
+    max-width: 450px;
+
+    h1, h2, h3, p {
+      color: #2D6DD3;
+      margin: 7px 5px;
+      padding: 7px 5px;
+    }
+
+    .nom {
+      font-size: 50px;
+    }
+
+    .date {
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    .poste {
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    .fonct {
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    .societe {
+      font-size: 24px;
+      font-weight: 600;
+
+      .region {
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+
+    .desc {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.3em;
+    }
+  }
+}

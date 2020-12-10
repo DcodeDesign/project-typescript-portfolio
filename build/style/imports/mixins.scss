@@ -1,0 +1,31 @@
+@mixin absoluteCenterPosition {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+@mixin radius($size) {
+  -webkit-border-radius: #{$size}px;
+  -moz-border-radius:  #{$size}px;
+  border-radius:  #{$size}px;
+}
+
+@mixin sizeCard {
+  max-width:700px;
+  width:100%;
+  height:400px;
+}
+
+@mixin shadowCard {
+  -webkit-box-shadow: 0 0 45px 0 rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 45px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 0 45px 0 rgba(0,0,0,0.5);
+}
+
+@mixin cardBg($url) {
+  background-image: url($url);
+  background-position: bottom right;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
